@@ -13,9 +13,14 @@ public class App
     public static void main(String[] args) {
         System.out.println(new App().getMessage());
     }
-
+    public static int calc(int a, int b) {
+        int result = a * b;
+        return  result;
+    }
+    
     private final String getMessage() {
         return message;
     }
+
 
 }
